@@ -1,0 +1,8 @@
+{
+  "main": {
+    "translation": "something translated in main"
+  },
+  "finance": {
+    "translation": "something translated from finance through main"
+  }
+}
