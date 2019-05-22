@@ -5,7 +5,11 @@ import { SomeComponentComponent } from './some-component/some-component.componen
 
 const routes: Routes = [
   { path: '', component: SomeComponentComponent },
-  { path: 'finance', loadChildren: './finance-routing/finance-routing.module#FinanceRoutingModule'}
+  {
+    path: 'finance',
+    loadChildren: './finance-routing/finance-routing.module#FinanceRoutingModule'
+  },
+  { path: 'hospi', loadChildren: './hospi-routing/hospi-routing.module#HospiRoutingModule' }
 ];
 
 @NgModule({
